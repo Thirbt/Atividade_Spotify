@@ -74,7 +74,7 @@ section {
 .espaco-album{
 	flex-direction: column;
 	columns: 2;
-	column-gap: 3.5%;
+	column-gap: 5%;
 }
 
 .imagem-album{
