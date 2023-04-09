@@ -138,9 +138,9 @@ h4 {
 
 @media(max-width: 375px) {
 	nav {
-		display: grid;
-		grid-template-columns: 1fr 3fr;
 		column-gap: 30%;
+		position: fixed;
+		top: 0;
 	}
 
 	.topicos-nav-normal{
