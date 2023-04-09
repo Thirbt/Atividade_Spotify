@@ -30,27 +30,35 @@
   <body>
     <nav class="d-flex justify-content-center align-items-center">
       <img class="img-size" src="./img/spotify.svg" alt="símbolo do spotify" />
-      <div>
+      <div class="topicos-nav-normal">
         <a href="">Premium</a>
         <a href="">Ajuda</a>
         <a href="">Baixar</a> |
         <a href="">Inscrever-se</a>
         <a href="">Entrar</a>
       </div>
+      <div class="btn-group">
+        <button type="button" class="btn btn-secondary dropdown-toggle estilo-botao-dropdown" data-toggle="dropdown" data-display="static" aria-expanded="false">
+          <i class="fa-solid fa-bars"></i>
+        </button>
+        <div class="dropdown-menu dropdown-menu-right dropdown-menu-lg-left pt-4">
+          <button class="dropdown-item texto-branco" type="button"><a href="">Premium</a></button>
+          <button class="dropdown-item texto-branco" type="button"><a href="">Ajuda</a></button>
+          <button class="dropdown-item texto-branco" type="button"><a href="">Baixar</a></button>
+          <button class="dropdown-item texto-branco" type="button"><a href="">Inscrever-se</a></button>
+          <button class="dropdown-item texto-branco" type="button"><a href="">Entrar</a></button>
+        </div>
+      </div>
     </nav>
 
     <header class="d-flex justify-content-center align-items-center">
-      <div
-        id="carouselExampleControls"
-        class="carousel slide"
-        data-ride="carousel"
-      >
+      <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
         <div class="carousel-inner">
           <div class="carousel-item active">
             <div class="tamanho-carrosel">
               <h1>Música para todos</h1>
-              <div class="mt-4">
-                <button id="botao-roxo">APROVEITE O SPOTIFY FREE</button>
+              <div class="preview mt-4">
+                <button id="botao-roxo" class="margin-botao-celular">APROVEITE O SPOTIFY FREE</button>
                 <button class="botao-branco">OBTER SPOTIFY PREMIUM</button>
               </div>
             </div>
@@ -58,7 +66,7 @@
           <div class="carousel-item">
             <div class="tamanho-carrosel">
               <h1>As melhores rádios</h1>
-              <div class="mt-4">
+              <div class="preview mt-4">
                 <button class="botao-branco">
                   <i class="fa-solid fa-music"></i> OUÇA AGORA
                 </button>
@@ -89,7 +97,7 @@
 
     <main>
       <section class="d-flex align-items-center justify-content-center">
-        <div class="espaco-album mr-5">
+        <div class="espaco-album">
           <img
             class="imagem-album mb-3"
             src="/img/img1.jpg"
@@ -108,7 +116,7 @@
           <img class="imagem-album" src="/img/img4.jpg" alt="Imagem moça" />
         </div>
 
-        <div class="w-25 p-5">
+        <div class="espaco-texto-celular">
           <h2 class="titulo-album">O que o Spotify tem?</h2>
           <h3 class="titulo-album">Músicas</h3>
           <p>
@@ -129,7 +137,7 @@
       </section>
 
       <article class="d-flex align-items-center justify-content-center mb-5">
-        <div class="w-25 h-50 float-left p-5">
+        <div class="h-50 float-left p-5 espaco-texto-celular">
           <h1 class="texto-branco titulo-facil">Fácil</h1>
           <h3 class="titulo-iphone">Buscar</h3>
           <p class="texto-branco">
@@ -147,13 +155,13 @@
           </p>
         </div>
 
-        <div class="w-10 h-50 float-right p-5">
+        <div class="imagem-iphone-celular w-10 h-50 float-right p-5">
           <img class="imagem-iphone" src="/img/iphone1.png" alt="Foto iphone" />
           <img class="imagem-iphone" src="/img/iphone2.png" alt="Foto iphone" />
         </div>
       </article>
 
-      <footer class="d-flex justify-content-center align-items-center p-5">
+      <footer class="d-flex justify-content-center align-items-center">
         <div>
           <img
             class="img-size"
@@ -161,27 +169,27 @@
             alt="símbolo do spotify"
           />
         </div>
-        <div>
+        <div class="footer-celular">
           <h4>COMPANY</h4>
           <li>Sobre</li>
           <li>Empregos</li>
           <li>Imprensa</li>
           <li>Novidades</li>
         </div>
-        <div>
+        <div class="footer-celular">
           <h4>COMUNIDADES</h4>
           <li>Artistas</li>
           <li>Desenvolvedores</li>
           <li>Marcas</li>
         </div>
-        <div>
+        <div class="footer-celular">
           <h4>LINKS UTEIS</h4>
           <li>Ajuda</li>
           <li>Presentes</li>
           <li>Player da web</li>
         </div>
-        <div class="w-25">
-          <div class="float-right">
+        <div class="w-25 icones-celular">
+          <div class="float-right icones-celular">
             <img class="m-1" src="/img/instagram.png" alt="Imagem instagram" />
             <img class="m-1" src="/img/twitter.png" alt="Imagem twitter" />
             <img class="m-1" src="/img/facebook.png" alt="Imagem facebook" />
