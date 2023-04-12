@@ -95,6 +95,7 @@ section {
 	width: 15em;
 	rotate: 26deg;
 	margin: 2em;
+	padding: 3rem !important;
 }
 
 .titulo-album{
@@ -243,6 +244,7 @@ h4 {
 		width: 12em;
 		rotate: 0deg;
 		margin: 0;
+		padding: 0 !important;
 	}
 
 	.imagem-iphone-celular{
